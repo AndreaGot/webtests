@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 7-ott-2013, 13.22.40
+    Created on : 7-ott-2013, 14.06.43
     Author     : ANDre1
 --%>
 
@@ -12,12 +12,14 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Ciao  Mondo!</h1>
-        <form name="form1" action="InvocaServlet" method="Get">
+        <h1>Hello World!</h1>
+        <form name="form1" action="Servlet1" method="Get">
 
-            <input type="text" name="parametro" value="" />
+            <input type="text" name="param" value="" />
             <input type="submit" value="ok" name="ok" />
 
-       </form>
+        </form>
+
+
     </body>
 </html>
