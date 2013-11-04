@@ -1,0 +1,134 @@
+
+header{
+     height: 35px;
+     text-align: right;
+     padding: 7px 0;
+     background: rgba(54,119,56,0.8);
+     margin-bottom: 30px;
+}
+header p{
+    padding: 10px 30px 0 0;
+
+    position: relative;
+    color: white;
+    display:inline;
+}
+div#footer{
+    background-color: #367738 !important;
+}
+
+img.account{
+    display: inline;
+    margin-right: 15px;
+    cursor: pointer;
+    vertical-align:   middle;
+}
+
+div#container_log{
+    position: relative;
+     width: 1000px;
+    height: 800px;
+    margin: 0px auto;
+}
+div#container_spesa{
+    position: relative;
+     width: 480px;
+    height: 800px;
+    margin: 0px auto;
+}
+div.offerte{
+    float:left;
+    width: 400px;
+    height: 240px;
+    position: relative;
+    margin: 30px;
+    cursor: pointer;
+}
+
+div#formaggi{
+    background:white url('/GreenMarket/img/formaggi_.jpg') no-repeat top left;
+    border: 4px solid #367738;
+}
+
+div#ortaggi{
+    background:white url('/GreenMarket/img/ortaggi_.jpg') no-repeat top left;
+    border: 4px solid #367738;
+}
+div#vini{
+    background:white url('/GreenMarket/img/vini_.jpg') no-repeat top left;
+    border: 4px solid #367738;
+}
+div#pane{
+    background:white url('/GreenMarket/img/pane_.jpg') no-repeat top left;
+    border: 4px solid #367738;
+}
+header p,header form{
+    display:inline;
+    vertical-align: middle;
+}
+
+input#logout{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 30px;
+    padding: 5px 15px;
+   border: 0;
+   background: white;
+   color:black;
+   display: inline;
+}
+
+table#products{
+  background:  rgba(256,256,256,0.8);
+    padding: 10px 50px;
+    white-space:  inherit;
+    
+}
+table#products td{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+table#products th{
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+table#products tr.row1{
+ background:  rgba(54,119,56,0.4);
+ 
+}
+table#products tr.row2{
+
+}
+
+input#compra,button#conferma{
+    border:none;
+    background: rgba(54, 119, 56, 0.8);
+    padding: 12px 30px;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+button#annulla,input#annulla{
+    border:none;
+    background: rgba(255, 0, 0, 0.8);
+    padding: 12px 30px;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+tr#totale td{
+    text-align:right;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 45px;
+}

@@ -1,0 +1,166 @@
+#ok{
+    
+    color:white;
+    float:right;
+    margin-right:300px;
+    margin-top:80px;
+}
+#register{
+    background:rgba(255,255,255, 0.6);
+    position: relative;
+    padding: 30px;
+    
+    width: 250px;
+    height: 400px;
+    margin: 80px auto;
+}
+.reg{
+    width: 255px;
+    height: 30px;
+    border: solid 1px #999;
+}
+header{
+height: 125px;
+    width: 100%;
+   padding-top: 15px;
+    background:rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid #367738;
+}
+div#header{
+    height: 150px;
+    position:absolute;
+    top:0;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    
+}
+img#logo{
+    height: 100px;
+    margin-left: 20px;
+    cursor:pointer;
+    margin-top: 5px;
+}
+form label{
+    position: absolute; padding:8px 10px !important;color:#999;font-size: 15px;
+
+    
+}
+form input{
+    
+}
+
+form input[type="submit"]{
+    background-color: #367738;
+    color:white;
+    border: 0px;
+    padding: 15px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+input.log_input{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 154px;
+    z-index: 3;
+    padding: 0 10px;
+    text-align: left;
+    
+}
+div#open_login{
+    float:left;
+    width: 50px;
+    height: 184px;
+    cursor:pointer;
+}
+div#login{
+    float:right;
+    
+}
+div#all_login{
+    margin-right: -223px;
+    position: absolute;
+    right:0;
+    top: 0;
+    float:right;    
+    height: 230px;
+    border: 1px solid #367738;
+    padding-right: 20px;
+    background:rgba(255, 255, 255, 0.8);
+}
+div#container{
+    position: relative;
+    
+    
+    width: 1220px;
+    height: 400px;
+    margin: 80px auto;
+}
+
+div.offerte{
+    float:left;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 50px;
+    cursor: pointer;
+}
+div#formaggi{
+    background:white url('/GreenMarket/img/formaggi.jpg') no-repeat top left;
+    border: 4px solid #367738;
+}
+
+div#ortaggi{
+    background:white url('/GreenMarket/img/ortaggi.jpg') no-repeat top left;
+    border: 4px solid #367738;
+}
+div#vini{
+    background:white url('/GreenMarket/img/vini.jpg') no-repeat top left;
+    border: 4px solid #367738;
+}
+div#pane{
+    background:white url('/GreenMarket/img/pane.jpg') no-repeat top left;
+    border: 4px solid #367738;
+}
+
+
+
+#freccia_left{
+    float:left;
+    width: 50px;
+    height: 300px;
+    position: relative;
+    margin: 55px 20px;
+    background: red;
+}
+#freccia_right{
+    float:left;
+    width: 50px;
+    height: 300px;
+    position: relative;
+    margin:55px 20px;
+    background: red;
+    
+}
+
+#show{
+    width: 1217px;
+float: left;
+    overflow: hidden;
+    height: 400px;
+}
+
+#error{
+    width: 100%;
+    text-align: center;
+
+    color:red;
+    float:right;
+}
+
+#page_error
+{
+ background: rgba(0,0,0,0.3);
+}

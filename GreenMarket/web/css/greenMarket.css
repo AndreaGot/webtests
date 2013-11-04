@@ -1,0 +1,32 @@
+footer{
+           text-align: center;
+        vertical-align: middle; 
+     height: 50px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    border-top: 4px solid #367738;
+    background:rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+
+
+div.clear{
+    clear: both;
+    
+}
+
+body,html{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%
+}
+
+#sfondo1,#sfondo2{
+    z-index: -1;
+    position: absolute;
+}
+
+
